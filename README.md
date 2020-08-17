@@ -1,6 +1,6 @@
-##Reduce NPA of a Bank
+## Reduce NPA of a Bank
 
-####Approach
+#### Approach
 1. Model Selection: xgboost
 2. Data Pre-processing Steps used
     1. Remove features with missing values larger than the threshold value(0.7) for the entire dataset
@@ -36,7 +36,7 @@ boost_rounds = 200
 ###### train and test split used during training: 75:25
 ###### auc socre obtained: 0.9416 (Evaluation AUC score on test set)
 
-#####Further Improvements:
+##### Further Improvements:
 1. Prepare a proper data pipeline so that the data pre-processings can be applied without any hassle.
 2. Improvements on categorical features:
     1. handling less frequent categorical variables properly
