@@ -119,6 +119,8 @@ def run(train_file, test_file):
 
 
 if __name__ == '__main__':
+    # provide the path to training file
     dataset_file_path = 'dataset/train_indessa.csv'
+    # provide the path to testing file
     test_file_path = 'dataset/test_indessa.csv'
     run(dataset_file_path, test_file_path)

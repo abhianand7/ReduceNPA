@@ -32,8 +32,6 @@ def get_training_data(df: pd.DataFrame) -> (np.ndarray, np.ndarray, dict, dict, 
 
     df, mean_enc_dicts = handle_categorical_features(df, categorical_features)
 
-
-
     plot_corr_mat(df)
 
     input_features = categorical_features + to_scaled_features
